@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F4FF869-BD7F-4D16-B56D-A9DCD3287426" schemaObject="5B605611-F927-EF29-EBC4-FF4293A7F124" name="IDOL_MEMBER">
+<sourceConnName>mina</sourceConnName>
+<sourceObjSchema>MINA</sourceObjSchema>
+<sourceObjName>IDOL_MEMBER</sourceObjName>
+<createdBy>161435</createdBy>
+<createdTime>2020-04-23 00:34:33 UTC</createdTime>
+<ownerDesignName>IDOL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GROUP_NAME" id="559F0E9E-1C92-07F9-95C4-7828E29D0EFC">
+<sourceConnName>mina</sourceConnName>
+<sourceObjSchema>IDOL_MEMBER</sourceObjSchema>
+<sourceObjName>GROUP_NAME</sourceObjName>
+<createdBy>161435</createdBy>
+<createdTime>2020-04-23 00:34:33 UTC</createdTime>
+<ownerDesignName>IDOL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEMBER_NAME" id="2ABEFDBC-CA6E-9553-7946-76BEBA18142E">
+<sourceConnName>mina</sourceConnName>
+<sourceObjSchema>IDOL_MEMBER</sourceObjSchema>
+<sourceObjName>MEMBER_NAME</sourceObjName>
+<createdBy>161435</createdBy>
+<createdTime>2020-04-23 00:34:33 UTC</createdTime>
+<ownerDesignName>IDOL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REAL_NAME" id="7C80A748-91D9-FB3F-A5DE-53FD13E3D10E">
+<sourceConnName>mina</sourceConnName>
+<sourceObjSchema>IDOL_MEMBER</sourceObjSchema>
+<sourceObjName>REAL_NAME</sourceObjName>
+<createdBy>161435</createdBy>
+<createdTime>2020-04-23 00:34:33 UTC</createdTime>
+<ownerDesignName>IDOL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BITRHDAY" id="31A60A9F-1C96-7653-6C03-68005BAB34FA">
+<sourceConnName>mina</sourceConnName>
+<sourceObjSchema>IDOL_MEMBER</sourceObjSchema>
+<sourceObjName>BITRHDAY</sourceObjName>
+<createdBy>161435</createdBy>
+<createdTime>2020-04-23 00:34:33 UTC</createdTime>
+<ownerDesignName>IDOL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SNS_INFO" id="D17496E4-F215-535E-7C12-9E02EB69F536">
+<sourceConnName>mina</sourceConnName>
+<sourceObjSchema>IDOL_MEMBER</sourceObjSchema>
+<sourceObjName>SNS_INFO</sourceObjName>
+<createdBy>161435</createdBy>
+<createdTime>2020-04-23 00:34:33 UTC</createdTime>
+<ownerDesignName>IDOL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D22430C6-A526-41FA-03F8-0C41F57D7BD2" schemaObject="5B605611-F927-EF29-EBC4-FF4293A7F124" name="IDX_IDMEM1">
+<sourceConnName>mina</sourceConnName>
+<sourceObjSchema>MINA</sourceObjSchema>
+<sourceObjName>IDX_IDMEM1</sourceObjName>
+<createdBy>161435</createdBy>
+<createdTime>2020-04-23 00:34:34 UTC</createdTime>
+<ownerDesignName>IDOL</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="559F0E9E-1C92-07F9-95C4-7828E29D0EFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

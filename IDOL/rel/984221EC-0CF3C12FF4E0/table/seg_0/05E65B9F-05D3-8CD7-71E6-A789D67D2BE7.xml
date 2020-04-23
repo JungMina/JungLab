@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05E65B9F-05D3-8CD7-71E6-A789D67D2BE7" schemaObject="5B605611-F927-EF29-EBC4-FF4293A7F124" name="IDOL_GROUP">
+<sourceConnName>mina</sourceConnName>
+<sourceObjSchema>MINA</sourceObjSchema>
+<sourceObjName>IDOL_GROUP</sourceObjName>
+<createdBy>161435</createdBy>
+<createdTime>2020-04-23 00:34:33 UTC</createdTime>
+<ownerDesignName>IDOL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COMPANY" id="450369A7-0CD5-395F-8106-7DA0B1978310">
+<sourceConnName>mina</sourceConnName>
+<sourceObjSchema>IDOL_GROUP</sourceObjSchema>
+<sourceObjName>COMPANY</sourceObjName>
+<createdBy>161435</createdBy>
+<createdTime>2020-04-23 00:34:33 UTC</createdTime>
+<ownerDesignName>IDOL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GROUP_NAME" id="5435E8D8-CC17-5AE5-9D86-E88C7879EF59">
+<sourceConnName>mina</sourceConnName>
+<sourceObjSchema>IDOL_GROUP</sourceObjSchema>
+<sourceObjName>GROUP_NAME</sourceObjName>
+<createdBy>161435</createdBy>
+<createdTime>2020-04-23 00:34:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[그룹명]]></commentInRDBMS>
+<ownerDesignName>IDOL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEBUT_YEAR" id="FB968801-EF62-E19D-C13C-69E3B3344250">
+<sourceConnName>mina</sourceConnName>
+<sourceObjSchema>IDOL_GROUP</sourceObjSchema>
+<sourceObjName>DEBUT_YEAR</sourceObjName>
+<createdBy>161435</createdBy>
+<createdTime>2020-04-23 00:34:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[데뷔년도]]></commentInRDBMS>
+<ownerDesignName>IDOL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEBUT_ALBUM" id="6A21E309-47E7-5CC6-E69F-3052BED70666">
+<sourceConnName>mina</sourceConnName>
+<sourceObjSchema>IDOL_GROUP</sourceObjSchema>
+<sourceObjName>DEBUT_ALBUM</sourceObjName>
+<createdBy>161435</createdBy>
+<createdTime>2020-04-23 00:34:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[데뷔앨범]]></commentInRDBMS>
+<ownerDesignName>IDOL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENDER" id="A1DFFDCF-6904-071E-807D-07363783BBA0">
+<sourceConnName>mina</sourceConnName>
+<sourceObjSchema>IDOL_GROUP</sourceObjSchema>
+<sourceObjName>GENDER</sourceObjName>
+<createdBy>161435</createdBy>
+<createdTime>2020-04-23 00:34:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[성별]]></commentInRDBMS>
+<ownerDesignName>IDOL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

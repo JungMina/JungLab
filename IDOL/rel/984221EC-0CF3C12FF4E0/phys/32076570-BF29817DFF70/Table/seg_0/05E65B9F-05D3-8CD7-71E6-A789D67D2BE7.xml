@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="IDOL_GROUP" directorySegmentName="seg_0" id="05E65B9F-05D3-8CD7-71E6-A789D67D2BE7">
+<createdBy>161435</createdBy>
+<createdTime>2020-04-23 00:34:33 UTC</createdTime>
+<ownerDesignName>IDOL</ownerDesignName>
+<schemaObject>5B605611-F927-EF29-EBC4-FF4293A7F124</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1708C21F-EEE0-9312-8C0D-6287C3010F15</segment>
+<tableSpace>28EAF5FD-F735-A7BD-1DD0-3A795D804209</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="COMPANY" id="450369A7-0CD5-395F-8106-7DA0B1978310">
+<createdBy>161435</createdBy>
+<createdTime>2020-04-23 00:34:33 UTC</createdTime>
+<ownerDesignName>IDOL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GROUP_NAME" id="5435E8D8-CC17-5AE5-9D86-E88C7879EF59">
+<createdBy>161435</createdBy>
+<createdTime>2020-04-23 00:34:33 UTC</createdTime>
+<ownerDesignName>IDOL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEBUT_ALBUM" id="6A21E309-47E7-5CC6-E69F-3052BED70666">
+<createdBy>161435</createdBy>
+<createdTime>2020-04-23 00:34:33 UTC</createdTime>
+<ownerDesignName>IDOL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GENDER" id="A1DFFDCF-6904-071E-807D-07363783BBA0">
+<createdBy>161435</createdBy>
+<createdTime>2020-04-23 00:34:33 UTC</createdTime>
+<ownerDesignName>IDOL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEBUT_YEAR" id="FB968801-EF62-E19D-C13C-69E3B3344250">
+<createdBy>161435</createdBy>
+<createdTime>2020-04-23 00:34:33 UTC</createdTime>
+<ownerDesignName>IDOL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

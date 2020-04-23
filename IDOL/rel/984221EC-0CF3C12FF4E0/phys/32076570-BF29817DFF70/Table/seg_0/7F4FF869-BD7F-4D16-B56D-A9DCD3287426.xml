@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="IDOL_MEMBER" directorySegmentName="seg_0" id="7F4FF869-BD7F-4D16-B56D-A9DCD3287426">
+<createdBy>161435</createdBy>
+<createdTime>2020-04-23 00:34:33 UTC</createdTime>
+<ownerDesignName>IDOL</ownerDesignName>
+<schemaObject>5B605611-F927-EF29-EBC4-FF4293A7F124</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1708C21F-EEE0-9312-8C0D-6287C3010F15</segment>
+<tableSpace>28EAF5FD-F735-A7BD-1DD0-3A795D804209</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MEMBER_NAME" id="2ABEFDBC-CA6E-9553-7946-76BEBA18142E">
+<createdBy>161435</createdBy>
+<createdTime>2020-04-23 00:34:33 UTC</createdTime>
+<ownerDesignName>IDOL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BITRHDAY" id="31A60A9F-1C96-7653-6C03-68005BAB34FA">
+<createdBy>161435</createdBy>
+<createdTime>2020-04-23 00:34:33 UTC</createdTime>
+<ownerDesignName>IDOL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GROUP_NAME" id="559F0E9E-1C92-07F9-95C4-7828E29D0EFC">
+<createdBy>161435</createdBy>
+<createdTime>2020-04-23 00:34:33 UTC</createdTime>
+<ownerDesignName>IDOL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REAL_NAME" id="7C80A748-91D9-FB3F-A5DE-53FD13E3D10E">
+<createdBy>161435</createdBy>
+<createdTime>2020-04-23 00:34:33 UTC</createdTime>
+<ownerDesignName>IDOL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SNS_INFO" id="D17496E4-F215-535E-7C12-9E02EB69F536">
+<createdBy>161435</createdBy>
+<createdTime>2020-04-23 00:34:33 UTC</createdTime>
+<ownerDesignName>IDOL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IDX_IDMEM1" id="D22430C6-A526-41FA-03F8-0C41F57D7BD2">
+<createdBy>161435</createdBy>
+<createdTime>2020-04-23 00:34:34 UTC</createdTime>
+<ownerDesignName>IDOL</ownerDesignName>
+<schemaObject>5B605611-F927-EF29-EBC4-FF4293A7F124</schemaObject>
+<segment>75A6AC6F-18DC-BA6C-956F-DEAAA4DC000E</segment>
+<tableSpace>28EAF5FD-F735-A7BD-1DD0-3A795D804209</tableSpace>
+</IndexProxy>
+</indexProxies>
+</TableProxyOraclev11g>

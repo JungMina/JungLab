@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="MINA" directorySegmentName="seg_0" id="CCB5D13A-DC14-02EF-E029-A08B374F1D59">
+<sourceConnName>mina</sourceConnName>
+<sourceObjName>MINA</sourceObjName>
+<createdBy>161435</createdBy>
+<createdTime>2020-04-23 00:34:33 UTC</createdTime>
+<ownerDesignName>IDOL</ownerDesignName>
+<schemaObject>5B605611-F927-EF29-EBC4-FF4293A7F124</schemaObject>
+</UserOraclev10g>
